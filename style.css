@@ -1,0 +1,644 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Open Sans", sans-serif;
+}
+
+header{
+   background: url(https://i.postimg.cc/P5Zfh9QL/hero-bg.jpg) center;
+   width: 100%;
+   max-width: 1900px;
+}
+.fixed{
+    background-color: #ffbe33;
+    position: fixed;
+    bottom: 20px;
+    height: 50px;
+    width: 50px;
+    padding: 10px 13px;
+    right: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.fixed i{
+  font-size: 30px; color: #f1f2f3;  transition: 0.3s color ease;
+}
+.fixed a{
+    text-decoration: none;
+   
+}
+.fixed i:hover{
+    color: #ffbe33;
+}
+.fixed:hover{
+    color: #ffbe33;
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+@media(max-width:1050px){
+    header{
+        width: 100% !important;  padding-bottom:20px ;
+    }
+    header .header{
+      flex-direction: column;
+      gap: 20px;
+    justify-content:center;
+    padding: 20px 0px 0 0px;
+}
+header .fastfood{
+    color: whitesmoke;
+    padding: 90px 0 5px 70px;
+    margin: 30px auto;
+}
+header .fastfood p{
+  padding:0px 0px 20px 0;
+}
+.cards2{
+    flex-direction: column;
+    justify-content: center;
+    margin:0px 0px 0px 10px;
+    }
+    .cards2 .card1{
+        width: 100% !important;
+        margin: 20px 10px !important;
+    }
+    .section1 span{
+        text-align: center;
+            font-size: 20px !important;
+            margin: 20px 0px 0 390px !important;
+        }
+        .section1 .cards9{
+            grid-template-columns: repeat(2,350px);
+            grid-template-rows: repeat(4,410px);
+            justify-content: center;
+            align-items: center;
+            gap: 20px !important;
+            padding: 0 0 50px 0;
+        }
+        .section1 .cards9 .cardmenu9{  
+            margin: 20px 0px 0 200px !important;
+        }
+        .view{
+         margin: 0 0 0 270px !important;
+        }
+        .WeAreFeane{
+            background-color:#222831 ;
+            width: 100%;
+            margin: 50px 0;
+            display: flex;
+            flex-direction: column;
+        }
+        .WeAreFeane img{
+           width: 245px !important;
+           margin: 20px 0px 0px 170px !important;
+        }
+        .listfood{
+            animation-play-state: paused;
+            padding-top: 25px !important;
+            margin: 0px 50px !important;
+        }
+    
+        .BookATable .input input{
+            width:200px !important;
+          }
+          .Customersss{
+          flex-direction: column;
+          justify-content: center !important;
+        }
+        .Customers .customers1{
+            width:100% !important;
+            margin:50px 0px !important;
+          }
+        .content2{
+          flex-wrap: wrap;
+          justify-content: center;
+           margin-left: 10px !important;
+        }
+        footer .content{
+            margin:20px 10px !important;
+        }    
+}
+@media(max-width:600px){
+    body{
+        overflow: inherit;
+    }
+    header{
+        width: 100% !important;
+        padding-bottom:20px ;
+    }
+    header .header{
+      flex-direction: column;
+      gap: 20px;
+    justify-content:center;
+    padding: 20px 0px 50px 0px !important;
+}
+header .header ul{
+    flex-direction: column;
+    gap: 10px;
+  justify-content:center;
+  align-items: center;
+  padding: 20px 0px 40px 0px !important;
+}
+.cards2 .card1{
+    margin: 10px 0px !important;
+}
+.WeAreFeane img{
+    width: 245px !important;
+    margin: 20px 0px 0px 50px !important;
+ }
+.BookATable{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+}
+.BookATable .input input{
+    width:400px !important;
+  }
+  .OurMenu ul button{
+    font-size: 16px !important;
+  margin: 0 10px !important;
+  padding: 10px 0px !important;
+  cursor: pointer;
+}
+  .BookATable iframe{
+   width: 390px !important;
+   margin-left: 0px !important;
+  }
+    .section1 span{
+        text-align: center;
+            font-size: 20px !important;
+            margin: 20px 0px 0 270px !important;
+        }
+        .section1 .cards9{
+            grid-template-columns: repeat(1,350px);
+            grid-template-rows: repeat(9,410px);
+        }
+      .section1 .view{
+            margin: 0 0 0 130px !important;
+           }
+        .section1 .cards9 .cardmenu9{  
+            margin: 20px 0px 0 10px !important;
+        }
+        .view{
+         margin: 0 0 0 220px !important;
+        }
+     footer .content .sochial{
+         margin: 15px 0px 0px 70px !important;
+     }
+}
+.header{
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 0 50px;
+    color: aliceblue;
+    font-weight: 400px;
+}
+.header ul{
+    display: flex;
+   list-style: none;
+  padding: 8px 0 0 100px;  color: aliceblue;
+
+}
+.header ul .HOME{
+    color: #ffbe33;
+    pointer-events: none;
+}
+.cccc{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+.header ul li a{
+    text-decoration: none;
+    padding:0 20px 0 20px;
+    color: whitesmoke;
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .header ul li a:hover{
+    color: #ffbe33;
+ }
+ .header div a{
+     text-decoration: none;
+     color: #f1f2f3;
+ }
+.header h2{
+    font-family:'Italic',cursive; font-weight: 700;
+   
+}
+.Order-online{
+    text-decoration: none;
+    background-color: #ffbe33;
+    border-radius: 20px;
+    color: aliceblue;
+    padding: 10px 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header div i{
+  padding: 0 20px 0 0;
+}
+.header div i:hover{
+    color: #ffbe33;
+}
+.Order-online:hover{
+    background-color: #ffbe33c4;
+}
+.header div i,.Order-online,.header ul li a,.header ul li a::before{
+    transition: .3s ease;
+}
+.header ul li a::before{
+    content: "";
+    position: absolute;
+    background-color: #ffbe33;
+    height: 2px;
+    border-radius: 50%;
+    width: 80%;
+   transform: translate(60px,22px);
+   opacity: 0;
+}
+.header ul li a:hover:before{
+    opacity: 1;
+    transform: translate(-5px,22px);
+}
+.fastfood{
+    color: whitesmoke;
+    padding: 90px 0 285px 70px;
+    animation-name: fastfood;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+}
+@keyframes fastfood{
+    0%{
+        transform: translate(-500px);
+    }
+    10%{
+        transform: translate(10px);
+    }
+    15%{  transform: translate(0px);}
+    20%,25%,35%,40%,45%,50%,55%,60%,70%,80%,90%,100%{
+        transform: translate(0px);
+    }
+}
+
+.fastfood h3,.listfood h3{
+    font-family:'Italic',cursive; font-size: 80px;
+    font-size: 35px;
+    color: whitesmoke;
+    word-spacing: 1px;
+    font-weight: 700;padding: 15px 0;
+}
+.fastfood p{
+    color: rgba(245, 245, 245, 0.897);
+  padding: 0px 690px 40px 0;
+  line-height: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fastfood a{
+    padding: 10px 30px;
+}
+/* ---------------------2 cards-------------------------------------------- */
+.cards2{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+.cards2 .card1{
+background-color: #222831;
+color: whitesmoke;  font-family:'Italic',cursive; font-weight: 700;
+width: 520px;
+margin: 40px 20px;
+position: relative;
+padding: 20px 20px 20px 20px;
+border-radius: 5px;  
+}
+.cards2 .img img{
+   height: 165px;
+   width: 100%;
+   transition: .3s;
+}
+.cards2 .img{
+    float: left;
+    height: 165px;
+    width: 165px;
+    position: relative;
+    overflow: hidden;
+    border: 5px solid #ffbe33;
+    border-radius: 50%;
+}
+.cards2 div h4{
+    display: inline-block;
+    padding: 20px 60px 10px 30px;
+    font-size: 20px;
+    font-family:'Italic',cursive;
+}
+.cards2 div h5{
+    display: inline-block;
+    padding: 0px 0 10px 30px;
+    font-size: 30px;
+    display: inline-block;
+    font-weight: 700;
+}
+.cards2 div a{
+    display: inline-block;
+   margin: 0px 20px;
+}
+.cards2 .card1:hover .img img{
+    transform: scale(1.2);
+}
+.pizza1{
+    margin: 0 20px;
+    padding: 30px;
+}
+
+/* ---------------------Our Menu -------------------------------------------- */
+.section1 span{
+text-align: center;
+    font-family:'Italic',cursive; font-weight: 900;
+    font-size: 30px;
+    margin: 20px 535px;
+}
+.OurMenu ul{
+display: flex;
+justify-content: center;
+margin: 40px 0;
+}
+.OurMenu ul button{
+     background: none;
+     border: none;
+     font-size: 16px;
+   margin: 0 20px;
+   padding: 10px 10px;
+   cursor: pointer;
+}
+    
+.OurMenu ul button:hover{
+        background-color: black;
+        border-radius: 20px;
+        color: aliceblue;
+}
+.cards9{
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    grid-template-rows: repeat(3,410px);
+    justify-content: center;
+    gap: 30px;
+    padding: 0 0 50px 0;
+}
+.cards9 .cardmenu{
+    background: linear-gradient(to bottom, #f1f2f3 25px, #222831 25px );
+    width: 350px;
+    margin:0px 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #f1f2f3;
+    font-family: "Open Sans", sans-serif;
+}
+.cards9 .cardmenu:hover img{
+transform: scale(1.1);
+}
+.cards9 .cardmenu div{
+    height: 215px;
+    background-color: #f1f2f3;
+    border-radius: 0 0 0 45px;
+    width: 350px;
+    padding: 25px 25px;
+ 
+}
+.cards9 .cardmenu div img{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+   margin: 0 75px;
+   transition: .2s ease;
+}
+.cards9 .cardmenu h5,.cards9 .cardmenu h6{
+    display: inline-block;
+    font-size: 22px ;
+    font-weight: 600;
+    margin: 20px 0 0 20px;
+}
+.cards9 .cardmenu h6{
+    padding-bottom: 25px;
+}
+.cards9 .cardmenu p{
+    margin: 15px 0 0 20px;
+    padding: 0 30px 0 0;
+}
+.cart{
+    background-color: #ffbe33;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 50%;
+}
+.cards9 .cardmenu a{
+ text-decoration: none;
+ color: #f1f2f3;
+ margin-left: 220px;
+}
+.cart:hover{
+    color: #ffbe33;
+    background-color: whitesmoke;
+}
+.view{
+    display: inline-block;
+    width: 190px;
+ margin: 0 0 0 550px;
+ font-size: 20px;
+ text-align: center;
+ height: 45px;
+}
+/* ---------------------We Are Feane -------------------------------------------- */
+.WeAreFeane{
+    background-color:#222831 ;
+    width: 100%;
+    height: 800px;
+    margin: 50px 0;
+}
+.WeAreFeane img{
+   width: 445px;
+   
+   float: left;
+   margin: 105px 110px;
+}
+.listfood{
+    animation-play-state: paused;
+    padding-top: 250px;
+}
+.listfood p{
+    color:whitesmoke;
+  line-height: 25px;
+font-size: 18px;
+padding-right: 30px;
+padding-bottom:40px ;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.listfood h3, footer .content p{
+    color:whitesmoke;
+    font-weight: 800;
+    word-spacing: -8px;
+   
+}
+.listfood a{
+    padding: 12px 45px;
+    font-size: 17px;
+}
+/* --------------------- Book A Table ------------------------------------------- */
+.BookATable{
+    display: flex;
+    justify-content: center;
+    margin: 70px 0;
+}
+.BookATable iframe{
+  margin-top: 50px;
+  border-radius: 15px;
+  margin-left: 35px;
+}
+.BookATable .input input{
+    margin: 10px 0;
+   width: 550px;
+   height: 52px;
+   outline: none;
+ }
+ ::placeholder{
+     padding-left: 25px;
+     font-size: 15px;
+     color: rgba(0, 0, 0, 0.822);
+ }
+.BookATable .input h3{
+font-family: cursive;
+font-size: 30px;
+
+}
+.booknow{
+    display: inline-block;
+    margin: 15px 0;
+    height: 40px;
+    font-weight: 600;
+    text-align: center;
+    width: 150px;
+}
+/* ---------------------What Says Our Customers ------------------------------------------- */
+.Customersss{
+    display: flex;
+    justify-content: center;
+}
+.Customers h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+ color: black;
+ text-align: center;
+}
+.Customers .customers1{
+  width: 580px;
+  color: whitesmoke;
+  margin:50px 15px ;
+}
+.Customers .customers1 .div1{
+    width: 100%;
+    background-color:#222831 ; padding: 25px 25px;
+    border-radius: 11px;
+   
+}
+.Customers .customers1 .div1 p{
+   padding:0 10px;
+   line-height: 25px;
+}
+.Customers .customers1 .div1 h6{
+    padding:10px 10px 0 10px;
+    font-family: cursive;
+font-size: 20px;
+ }
+ .Customers .customers1 .div2{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    margin: 25px 0 0 10px;
+}
+.Customers .customers1 .div2 img{
+    height: 115px;
+    width: 115px;
+    border-radius: 50%;
+    border: 5px solid #ffbe33;
+    z-index: -1;
+}
+.Customers .customers1 .div2::before{
+    content: "";
+    position: absolute;
+    height: 20px ;
+    width: 20px;
+    background-color: #ffbe33;
+    top: -8px;
+    transform: rotate(44deg);
+    left: 50px;
+    z-index: -2;
+}
+/* ---------------------Contact Us ------------------------------------------- */
+footer{
+    background-color: #222831;
+}
+.content2{
+    display: flex;
+   margin-left: 110px;
+}
+
+
+footer .content{
+    margin:60px 40px;
+}
+footer .content h2{
+    color: #f1f2f3;
+    text-align: center;
+    font-family:'Italic',cursive; font-weight: 600;
+padding: 10px 0;
+font-size: 30px;
+}
+footer .content .a1{
+    text-decoration: none;
+    color: #f1f2f3;
+    padding: 5px 15px 5px 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+display:block;
+}
+footer .content .a1:hover{
+    color: #ffbe33;
+}
+footer .content p{
+  font-weight: 700;
+  text-align: center;
+  word-spacing: 3px;
+  line-height: 25px;
+ padding: 10px 0 0 0;
+ color: #f1f2f3be;
+}
+.sochial a {
+    text-decoration: none;
+  color: #222831;
+    background-color: #f1f2f3;
+   padding: 10px;
+    border-radius: 50%;
+}
+.sochial{
+  margin:30px 100px;
+}
+.pp{
+    padding: 10px ;
+}
+footer a{
+    transition: 0.1s ease;
+}
+footer a:hover{
+    color: #ffbe33;
+}
+.Rights{
+    text-align: center;
+    color: #f1f2f3be;
+}
+.Rights p{
+    padding: 0 0 10px 0;
+}
